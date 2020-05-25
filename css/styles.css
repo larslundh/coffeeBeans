@@ -1,0 +1,84 @@
+body{
+    max-width: 1350px;
+}
+
+.content{
+    background: #fff;
+    max-width: 960px;
+    margin: 30px auto;
+    padding:  20px 30px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+.bean-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.bean-list-item{
+    padding: 20px;
+    background: #f6f6f6;
+    font-size: 20px;
+    color: #555;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    height: relative;
+}
+
+.bean-list-item:nth-child(even){
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+.bean-list-item span{
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+}
+
+.bean-list-item div.titlesBox{
+   width: 25%;
+   display: inline-block;
+}
+
+.bean-list-item div.valuesBox{
+    width: 25%;
+    display: inline-block;
+}
+.bean-list-item div.photoBox{
+    width: 350px;
+    display: inline-block;
+}
+.bean-list-item div.photoBox img{
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bean-list-item div.editBtn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+}
+
+/* 6th child is trash 7th child is edit */
+.bean-list-item div.deleteBtn{
+    position: absolute;
+    top: 80%;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+ }
